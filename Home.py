@@ -122,7 +122,7 @@ Survival rates depend on the cancer’s stage and type. Generally, the five-year
 """)
 
 # Living with Breast Cancer
-st.header("Living With")
+st.header("Manage Living With Breast Cancer")
 st.write("""
 Managing breast cancer can be challenging. It’s important to get enough rest, eat a balanced diet, manage stress, and seek support through survivorship programs. 
 
