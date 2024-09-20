@@ -124,7 +124,7 @@ st.write(data.head())
 st.divider()
 
 # Analysis & EDA
-st.header('Analysis & EDA')
+st.header('Exploratory Data Analysis')
 st.subheader('Target Value Counts')
 
 y = df.target
