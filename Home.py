@@ -8,7 +8,7 @@ st.set_page_config(
   )
 
 # Title of the page
-st.image('./images/1.jpg')
+st.image('./images/Bc1.jpg')
 st.title("Breast Cancer Overview")
 
 
