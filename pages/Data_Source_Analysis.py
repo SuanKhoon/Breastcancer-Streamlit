@@ -195,7 +195,7 @@ scaler = StandardScaler()
 x_train = scaler.fit_transform(x_train)
 x_test = scaler.transform(x_test)
 
-algorithm = ['KNeighborsClassifier', 'RandomForestClassifier', 'DecisionTreeClassifier', 'GaussianNB', 'LogisticRegression']
+algorithm = ['KNeighborsClassifier', 'RandomForestClassifier', 'DecisionTreeClassifier', 'LogisticRegression']
 Accuracy = []
 
 def evaluate_model(model):
@@ -239,11 +239,6 @@ st.divider()
 st.subheader('03. DecisionTreeClassifier Evaluation')
 model_dt = DecisionTreeClassifier(random_state=42)
 evaluate_model(model_dt)
-st.divider()
-
-st.subheader('04. GaussianNB Evaluation')
-model_nb = GaussianNB()
-evaluate_model(model_nb)
 st.divider()
 
 st.subheader('05. LogisticRegression Evaluation')
