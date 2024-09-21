@@ -246,16 +246,6 @@ model_lr = LogisticRegression()
 evaluate_model(model_lr)
 st.divider()
 
-# Final Accuracy Plot
-st.header('Model Accuracy Comparison')
-df = pd.DataFrame({'Algorithm': algorithm, 'Accuracy': Accuracy})
-
-fig, ax = plt.subplots(figsize=(20, 10))
-ax.plot(df.Algorithm, df.Accuracy, label='Accuracy', lw=5, color='peru', marker='o', markersize=15)
-ax.legend(fontsize=15)
-ax.set_xlabel('\nModel', fontsize=20)
-ax.set_ylabel('Accuracy\n', fontsize=20)
-save_and_show_chart(fig, 'model_Accuracy.png')
 # st.pyplot(fig)
 
 # End of Streamlit app
