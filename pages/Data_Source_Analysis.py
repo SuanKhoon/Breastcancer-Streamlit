@@ -241,11 +241,11 @@ model_dt = DecisionTreeClassifier(random_state=42)
 evaluate_model(model_dt)
 st.divider()
 
-st.subheader('05. LogisticRegression Evaluation')
+st.subheader('04. LogisticRegression Evaluation')
 model_lr = LogisticRegression()
 evaluate_model(model_lr)
 st.divider()
 
-# st.pyplot(fig)
+
 
 # End of Streamlit app
