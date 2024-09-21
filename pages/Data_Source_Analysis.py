@@ -246,6 +246,15 @@ model_lr = LogisticRegression()
 evaluate_model(model_lr)
 st.divider()
 
+st.header("Best accuracy results achieved from algorithm and hypertuning function used:")
+st.write("""
+KNeighbors (KNN) accuracy_score : 0.9532163742690059 (95.32%)
 
+RandomForestClassifier accuracy : 0.9473684210526315 (94.73%)
+
+DecisionTree accurary : 0.9415204678362573 (94.15%)
+
+LogisticRegression : 0.9824358974358974 (98.24%)
+""")
 
 # End of Streamlit app
