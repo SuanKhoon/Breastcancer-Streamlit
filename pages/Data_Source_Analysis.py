@@ -50,7 +50,7 @@ The dataset is commonly used for classification tasks in machine learning to pre
 st.write("This application aims to provide insights into breast cancer through data analysis and prediction based on the Breast Cancer Wisconsin dataset.")
 st.divider()
 
-# Data Preparation and Import Libraries
+# Data Preparation and Import Dependecies/Libraries
 st.header('Data Preparation')
 data = pd.read_csv('./data/data.csv')
 
